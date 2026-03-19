@@ -8,7 +8,7 @@ export default function DashboardPage() {
       
       {/* This is the magic logout button from Clerk */}
       <div className="flex justify-center">
-        <UserButton afterSignOutUrl="/" />
+        <UserButton />
       </div>
     </div>
   );
